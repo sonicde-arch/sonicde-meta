@@ -1,7 +1,7 @@
 pkgbase = sonicde-meta
 	pkgdesc = Meta package to install the Sonic Desktop Environment which aims for keeping and improving the X11-specific ascpects of KDE
 	pkgver = 6.5
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/Sonic-DE
 	arch = x86_64
 	license = GPL-2.0-or-later
@@ -55,6 +55,7 @@ pkgbase = sonicde-meta
 	depends = powerdevil
 	depends = print-manager
 	depends = sddm-kcm
+	depends = sonic-silver-sddm
 	depends = sonic-silver-theme
 	depends = sonic-win
 	depends = sonic-workspace
