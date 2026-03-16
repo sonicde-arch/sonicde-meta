@@ -1,7 +1,7 @@
-# Maintainer: artist for Artix Linux
+# Maintainer: artist for Sonic-DE
 
 pkgname=sonicde-meta
-pkgver=6.5
+pkgver=6.6
 pkgrel=4
 pkgdesc='Meta package to install the Sonic Desktop Environment which aims for keeping and improving the X11-specific ascpects of KDE'
 arch=(x86_64)
@@ -11,8 +11,6 @@ depends=(aurorae
          bluedevil
          breeze
          breeze-gtk
-         discover
-         #drkonqi
          flatpak-kcm
          kactivitymanagerd
          kde-cli-tools
@@ -20,8 +18,6 @@ depends=(aurorae
          kdecoration
          kdeplasma-addons
          kglobalacceld
-         kinfocenter
-         kmenuedit
          knighttime
          kpipewire
          krdp
@@ -32,9 +28,6 @@ depends=(aurorae
          kwallet-pam
          kwayland
          kwrited
-         layer-shell-qt
-         libkscreen
-         libksysguard
          libplasma
          milou
          ocean-sound-theme
@@ -58,8 +51,11 @@ depends=(aurorae
          powerdevil
          print-manager
          sddm-kcm
+         sonic-desktop-interface
+         sonic-screen-library
          sonic-silver-sddm
          sonic-silver-theme
+         sonic-system-info
          sonic-win
          sonic-workspace
          sonic-x11-session
