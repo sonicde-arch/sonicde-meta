@@ -17,18 +17,14 @@ depends=(aurorae
          kde-gtk-config
          kdecoration
          kdeplasma-addons
-         kglobalacceld
          knighttime
          kpipewire
          krdp
-         kscreen
-         kscreenlocker
          ksshaskpass
          ksystemstats
          kwallet-pam
          kwayland
          kwrited
-         libplasma
          milou
          ocean-sound-theme
          oxygen
@@ -36,7 +32,6 @@ depends=(aurorae
          plasma-activities
          plasma-activities-stats
          plasma-browser-integration
-         plasma-desktop
          plasma-disks
          plasma-firewall
          plasma-integration
@@ -46,18 +41,22 @@ depends=(aurorae
          plasma-thunderbolt
          plasma-vault
          plasma-welcome
-         plasma-workspace-wallpapers
          polkit-kde-agent
          powerdevil
          print-manager
          sddm-kcm
          sonic-desktop-interface
+         sonic-interface-libraries
+         sonic-keybind-daemon
+         sonic-screen
          sonic-screen-library
+         sonic-screenlocker
          sonic-silver-sddm
          sonic-silver-theme
          sonic-system-info
          sonic-win
          sonic-workspace
+         sonic-workspace-wallpapers
          sonic-x11-session
          spectacle
          systemsettings
@@ -69,4 +68,3 @@ optdepends=('breeze-grub: Breeze theme for GRUB'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'plasma-sdk: Development tools'
             'wacomtablet-xlibre: Drawing tablet settings on X')
-
