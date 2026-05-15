@@ -41,6 +41,7 @@ depends=(aurorae
          plasma-thunderbolt
          plasma-vault
          plasma-welcome
+         plasma-workspace-wallpapers
          polkit-kde-agent
          powerdevil
          print-manager
@@ -56,7 +57,6 @@ depends=(aurorae
          sonic-system-info
          sonic-win
          sonic-workspace
-         sonic-workspace-wallpapers
          sonic-x11-session
          spectacle
          systemsettings
